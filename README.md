@@ -15,6 +15,8 @@ Additionally, alongside these auditory cues, an LED visually indicates the dista
 
 ## Motivation
 
+Parking can be a challenging task, especially in tight or crowded spaces. Despite advances in vehicle technology, many cars on the road today lack sophisticated parking assistance systems. This project aims to address this gap by developing a cost-effective, easy-to-build parking sensor system using readily available components: an Arduino UNO, a buzzer, an ultrasonic sensor, and an LED.
+
 ## Architecture
 
 ### Block diagram
@@ -37,7 +39,9 @@ Additionally, alongside these auditory cues, an LED visually indicates the dista
 | Arduino UNO | Microprocesor | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
 | Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
-| Ultrasonic sensor | Sensor |       |
+| Ultrasonic sensor | Sensor |   [6.5 RON](https://www.optimusdigital.ro/ro/senzori-senzori-ultrasonici/9-senzor-ultrasonic-hc-sr04-.html?search_query=senzor+ultrasonic&results=44)    |
+| Led | Led | [40 RON](https://www.optimusdigital.ro/ro/kituri/11970-set-led-uri-asortate-plusivo-500-buc-led-uri-100-buc-rezistoare-i-pcb-bonus.html?search_query=led&results=818) |
+
 ### Libraries
 
 <!-- This is just an example, fill in the table with your actual components -->
