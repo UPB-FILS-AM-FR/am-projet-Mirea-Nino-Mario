@@ -1,11 +1,10 @@
-# Your Project Name
+# Parking Sensor
+|`Author`|
+|-|
+| Mirea Nino-Mario |
 
-| | |
-|-|-|
-|`Author` | Mirea Nino-Mario
-
-## Description Parking sensor
-This Arduino project incorporates an LED that changes color based on the distance detected by an obstacle sensor. The sensor has a detection range of up to 15° within its field of view and can detect obstacles up to 4 meters away.
+## Description
+This Arduino project incorporates an LED that changes color based on the distance detected by an obstacle sensor. The sensor has a detection range of up to 15° within its field of view and can detect obstacles up to 50 centimeters away.
 
 In the code, each individual distance measurement is transmitted via the serial port for testing purposes. Additionally, when an obstacle is detected within 100 cm (as defined by the constant beep_start), an acoustic signal is activated.
 
@@ -19,19 +18,18 @@ Parking can be a challenging task, especially in tight or crowded spaces. Despit
 
 ## Architecture
 
-### Block diagram
+### Hardware Pictures
 
-<!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Picture](pics/hard1.jpg)
+![Picture](pics/hard2.jpg)
+![Picture](pics/hard3.jpg)
 
 ### Schematic
 
-![Schematic](schematics/kicad_schematic.png)
+![Schematic](schematics/tinkercad_pic.png)
+![Schematic](schematics/tinkercad_sch.jpg)
 
 ### Components
-
-
-
 
 | Device | Usage | Price |
 |--------|--------|-------|
@@ -42,32 +40,19 @@ Parking can be a challenging task, especially in tight or crowded spaces. Despit
 | Ultrasonic sensor | Sensor |   [6.5 RON](https://www.optimusdigital.ro/ro/senzori-senzori-ultrasonici/9-senzor-ultrasonic-hc-sr04-.html?search_query=senzor+ultrasonic&results=44)    |
 | Led | Led | [40 RON](https://www.optimusdigital.ro/ro/kituri/11970-set-led-uri-asortate-plusivo-500-buc-led-uri-100-buc-rezistoare-i-pcb-bonus.html?search_query=led&results=818) |
 
-### Libraries
-
-<!-- This is just an example, fill in the table with your actual components -->
-
-| Library | Description | Usage |
-|---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-
 ## Log
 
 <!-- write every week your progress here -->
 
 ### Week 6 - 12 May
-
+Found the project's subject.
 ### Week 7 - 19 May
-
+Ordered the necessary hardware and started working on the code.
 ### Week 20 - 26 May
-
+Assembled the hardware and finished the software side.
 
 ## Reference links
 
 <!-- Fill in with appropriate links and link titles -->
 
-[Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
-
-[Article 1](https://www.explainthatstuff.com/induction-motors.html)
-
-[Link title](https://projecthub.arduino.cc/)
+[Arduino ProjectHub](https://projecthub.arduino.cc/)
